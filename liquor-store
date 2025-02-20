@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquor Alimentation Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 50px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="logo" src="https://www.google.com/imgres?q=4k%20bazooka%20wine&imgurl=https%3A%2F%2Fmurukali.com%2Fcdn%2Fshop%2Ffiles%2FBazooka-Whisky-750ml-murukali-com-1814.jpg%3Fv%3D1710009957&imgrefurl=https%3A%2F%2Fmurukali.com%2Fproducts%2Fbazooka-whisky-750ml&docid=K6ZxfFlET_xNYM&tbnid=O4Lr8NqzrqilaM&vet=12ahUKEwj7gduomtKLAxVUgf0HHcZCB_gQM3oECBgQAA..i&w=640&h=640&hcb=2&ved=2ahUKEwj7gduomtKLAxVUgf0HHcZCB_gQM3oECBgQAA" alt="bazooka Logo">
+        <h1>Liquor Alimentation Store</h1>
+        <form action="https://www.instagram.com/rudasingwa.450/" method="GET" target="_blank">
+            <label for="username">Enter Your Name:</label><br>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="instagram">Instagram Account:</label><br>
+            <input type="text" id="instagram" name="instagram" required><br>
+
+            <label for="needs">What do you need from our store?</label><br>
+            <input type="text" id="needs" name="needs" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
